@@ -1,0 +1,24 @@
+.bg {
+  height: 300px ;
+}
+body {
+background-color: tomato;
+color: magenta;
+}
+body {
+background-image: url('Hammer.jpg'); 
+object-fit: cover; 
+}
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30%;
+}
+ul {
+  list-style-image: url('icon.png');
+}
+.specialborder {
+  border-image: url('border.jpg') 30 round;
+  border: 10px solid;
+  padding: 15px;
+}
