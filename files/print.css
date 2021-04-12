@@ -1,0 +1,39 @@
+#footer {
+ display: none; 
+}
+#sidebar {
+ display: none; 
+}
+#nav {
+ display: none; 
+}
+#wp-block-separator {
+ display: none; 
+}
+#right-sidebar {
+ display: none; 
+}
+#news {
+ display: none; 
+}
+#nav {
+ display: none; 
+}
+.wp-block-image {
+  display: none;
+}
+.wp-image-12929 {
+  display: none;
+}
+#content {
+  font-size: 1.25em
+}
+* {
+  background-color: white;
+  font: black
+}
+@media print {
+  a::after{
+    content: " (" attr(href) ") ";
+  }
+}
